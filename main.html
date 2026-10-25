@@ -4,12 +4,40 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <title>Box Center</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .text {
+            color: purple;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	
+    <div class="box">
+        <div class="text">This is center.</div>
+    </div>
+
 
 </body>
 
